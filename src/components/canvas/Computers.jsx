@@ -14,7 +14,7 @@ const Computers = () => {
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
-        penumba={2}
+        penumba={1}
         intensity={1}
         castShadow
         shadow-mapSize={1024}
