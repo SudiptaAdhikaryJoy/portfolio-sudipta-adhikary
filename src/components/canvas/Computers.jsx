@@ -15,7 +15,7 @@ const Computers = () => {
         position={[-20, 50, 10]}
         angle={0.12}
         penumba={3}
-        intensity={1}
+        intensity={2}
         castShadow
         shadow-mapSize={1024}
       />
