@@ -1,7 +1,5 @@
-import React from "react";
-
 const Ball = () => {
-	return <div>Ball1</div>;
+	return <div>Ball</div>;
 };
 
 export default Ball;
