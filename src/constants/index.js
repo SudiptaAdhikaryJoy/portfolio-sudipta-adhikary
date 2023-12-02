@@ -70,7 +70,7 @@ const technologies = [
     },
     {
         name: "CSS 3",
-        icon: css,
+        icon: css3,
     },
     {
         name: "JavaScript",
