@@ -51,11 +51,11 @@ const services = [
         icon: web,
     },
     {
-        title: "Frontend Developer",
+        title: "Frontend Development",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Backend Development",
         icon: backend,
     },
     {
@@ -121,13 +121,13 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Backend Developer",
+        title: "Backend Developer Intern",
         company_name: "Bama Tech Leads",
-        icon: starbucks,
+        icon: shopify,
         iconBg: "#383E56",
         date: "March 2020 - April 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using Node.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
@@ -173,6 +173,24 @@ const experiences = [
     //     ],
     // },
 ];
+
+const educations = [
+    {
+        course_name: "Secondary School Certificate",
+        course_degree: "Science",
+        institution: "Rajshahi Govt. Education Board Model School & College",
+    },
+    {
+        course_name: "Higher Secondary Certificate",
+        course_degree: "Science",
+        institution: "Varendra College, Rajshahi"
+    },
+    {
+        course_name: "Secondary School Certificate",
+        course_degree: "BTech in Computer Science & Engineering",
+        institution: "Lovely Professional University, Punjab, India"
+    }
+]
 
 const testimonials = [
     {
@@ -224,7 +242,7 @@ const projects = [
         source_code_link: "https://github.com/SudiptaAdhikaryJoy/ajker-barta",
     },
     {
-        name: "Job IT",
+        name: "Mercury Car Services",
         description:
             "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
@@ -267,4 +285,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects, ajker };
+export { services, technologies, experiences, testimonials, projects, ajker, educations };

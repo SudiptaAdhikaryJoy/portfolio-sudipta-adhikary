@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { styles } from "../style";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { SectionWrapper } from '../hoc'
+import { SectionWrapper } from "../hoc";
 
 // eslint-disable-next-line react/prop-types
 const ServiceCard = ({ index, title, icon }) => {
@@ -42,7 +42,14 @@ const About = () => {
 				<p className={styles.sectionSubText}>Introduction</p>
 				<h2 className={styles.sectionHeadText}>Overview</h2>
 			</motion.dev>
-			<motion.p>hello</motion.p>
+			<motion.p>
+				As an accomplished software developer, I bring a decade of hands-on
+				experience in crafting efficient and scalable code across various
+				projects and organizations. Proficient in multiple programming
+				languages, my expertise lies in creating clear, maintainable code. I
+				have a proven track record of collaborating within diverse teams,
+				ensuring smooth functionality and user-friendly experiences
+			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
@@ -53,4 +60,4 @@ const About = () => {
 	);
 };
 
-export default SectionWrapper(About, 'about');
+export default SectionWrapper(About, "about");
