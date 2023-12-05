@@ -20,6 +20,7 @@ import {
     tesla,
     shopify,
     carrent,
+    ajker,
     jobit,
     tripguide,
     threejs,
@@ -112,16 +113,16 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Backend Developer",
+        company_name: "Bama Tech Leads",
         icon: starbucks,
         iconBg: "#383E56",
         date: "March 2020 - April 2021",
@@ -132,45 +133,45 @@ const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "React Native Developer",
+    //     company_name: "Tesla",
+    //     icon: tesla,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2021 - Feb 2022",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     icon: shopify,
+    //     iconBg: "#383E56",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 const testimonials = [
@@ -202,25 +203,25 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Online News Portal",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to search, post news from over the world, user can authenticate and post blog here",
         tags: [
             {
-                name: "react",
+                name: "Nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: ajker,
+        source_code_link: "https://github.com/SudiptaAdhikaryJoy/ajker-barta",
     },
     {
         name: "Job IT",
@@ -240,29 +241,29 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: carrent,
+        source_code_link: "https://github.com/SudiptaAdhikaryJoy/mercury-car-services-client-side",
     },
     {
-        name: "Trip Guide",
+        name: "Express Travel",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "This project is about to be released travel blog site. A user or person come to visit website and get the details of the traveling packages, and select their affordable travel package. They can also see the ratings which is given by previous travelers. Admin can post travel packages and set prices. User can authenticate by email and password.",
         tags: [
             {
-                name: "nextjs",
+                name: "Reactjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Firebase",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/SudiptaAdhikaryJoy/express-travel-client",
     },
 ];
 
