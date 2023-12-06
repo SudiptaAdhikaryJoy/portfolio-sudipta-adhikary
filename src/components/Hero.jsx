@@ -2,6 +2,10 @@ import { motion } from "framer-motion";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
 import Typical from "react-typical";
+import { Link } from "react-router-dom";
+import { github } from "../assets";
+import { BsFacebook, BsTwitter } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 const Hero = () => {
 	return (
@@ -27,6 +31,14 @@ const Hero = () => {
 							steps={["Software Engineer", 500, "Frontend Developer", 500]}
 						/>
 					</p>
+					<a
+						style={{ marginLeft: "10px" }}
+						target="_blank"
+						rel="noreferrer"
+						href="https://github.com/SudiptaAdhikaryJoy"
+					>
+						<FaGithub size="3em" color="#fff" />
+					</a>
 				</div>
 			</div>
 			<ComputersCanvas />
