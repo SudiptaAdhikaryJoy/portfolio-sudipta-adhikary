@@ -31,6 +31,9 @@ const Hero = () => {
 							steps={["Software Engineer", 500, "Frontend Developer", 500]}
 						/>
 					</p>
+					{/* <Link to="https://github.com/SudiptaAdhikaryJoy">
+						<img src={github} alt="" />
+					</Link> */}
 					<a
 						style={{ marginLeft: "10px" }}
 						target="_blank"
